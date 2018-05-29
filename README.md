@@ -1,2 +1,0 @@
-# hellcat
-Driving webcomics wild
