@@ -1,0 +1,27 @@
+/**
+ * Access-related CSS for Hellcat layouts.
+ * @package Hellcat
+ */
+#skipNavigation {
+    position: absolute;
+    z-index: 1000;
+}
+#skipNavigation ul {
+    margin: 0.5em;
+}
+#skipNavigation ul li {
+    display: inline;
+}
+#skipNavigation a {
+    font-weight: 700;
+    display: block;
+    margin: 5px 0;
+    padding: 0.5em;
+    position: absolute;
+    top: -500px;
+    color: #ffff00;
+    background-color: #000000;
+}
+#skipNavigation a:focus{
+    position: static;
+}

@@ -1,0 +1,60 @@
+/**
+ * Access-related CSS for Hellcat layouts.
+ * @package Hellcat
+ */
+#skipNavigation {
+    position: absolute;
+    z-index: 1000;
+}
+#skipNavigation ul {
+    margin: 0.5em;
+}
+#skipNavigation ul li {
+    display: inline;
+}
+#skipNavigation a {
+    font-weight: 700;
+    display: block;
+    margin: 5px 0;
+    padding: 0.5em;
+    position: absolute;
+    top: -500px;
+    color: #ffff00;
+    background-color: #000000;
+}
+#skipNavigation a:focus{
+    position: static;
+}
+
+/**
+ * Dark mode layout for Hellcat.
+ * @package Hellcat
+ */
+body {
+    color: #cccccc;
+    background-color: #000000;
+}
+
+/**
+ * Skeleton layout CSS for Hellcat.
+ * @package Hellcat
+ */
+body {
+    font-family: Geneva, sans-serif;
+}
+.hellcatWrapper {
+    width: 100%;
+}
+.hellcatWrapper header {
+    text-align: center;
+}
+.hellcatWrapper footer {
+    text-align: center;
+}
+.hellcatWrapper main {
+    border-style: solid;
+    border-color: #999999;
+    border-width: 1px 0px 1px 0px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}

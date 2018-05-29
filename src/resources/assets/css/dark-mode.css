@@ -1,0 +1,8 @@
+/**
+ * Dark mode layout for Hellcat.
+ * @package Hellcat
+ */
+body {
+    color: #cccccc;
+    background-color: #000000;
+}
