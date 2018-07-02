@@ -4,10 +4,10 @@
     <title>{{ $title }}</title>
     @include('hellcat::layouts.components.metadata')
     @include('hellcat::layouts.components.stylesheets')
-    @include('hellcat::layouts.components.head-scripts')
+    @include('hellcat::layouts.components.headscripts')
 </head>
 <body class="{{ $baseClass or 'hellcat' }}-wrapper">
-    @include('layouts.components.skipaccess-comic')
+    @include('hellcat::layouts.components.skipaccess-comic')
     <header id="top" class="{{ $baseClass or 'hellcat' }}-header">
         @yield('header')
     </header>
@@ -19,7 +19,7 @@
             @yield('comic')
         </article>
         <section id="switch" class="{{ $baseClass or 'hellcat' }}-switch">
-            @include('layouts.components.switchbox')
+            @include('hellcat::layouts.components.switchbox')
         </section>
         @yield('content')
     </main>

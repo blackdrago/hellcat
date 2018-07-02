@@ -2,10 +2,10 @@
 /**
  * Contains the HellcatServiceProvider class.
  *
- * @package Hellcat
+ * @package Blackdrago\Hellcat
  * @author  K. McCormick <kyliemccormick@gmail.com>
  */
-namespace Hellcat;
+namespace Blackdrago\Hellcat;
 
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 use Illuminate\Support\Facades\Log;

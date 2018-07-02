@@ -1,5 +1,5 @@
             @if (!empty($switchNavTop))
-            <nav id="{{ (!empty($switchNavBottom) ? 'switchnavtop' : 'switchnav')" class="{{ $baseClass or 'hellcat' }}-switchnav-top" role="switchcontent">
+            <nav id="{{ (!empty($switchNavBottom) ? 'switchnavtop' : 'switchnav') }}" class="{{ $baseClass or 'hellcat' }}-switchnav-top" role="switchcontent">
                 @include('layouts.components.switchnav')
             </nav>
             @endif
